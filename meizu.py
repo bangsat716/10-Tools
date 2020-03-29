@@ -1,8 +1,16 @@
-import os, sys
+import os, sys, time
+os.system('clear')
+def main (kata):
+        for e in kata:
+            sys.stdout.write(e)
+            sys.stdout.flush()
+            time.sleep(0.2)
 
-print ("\033[1;32mSilahkan Masukkan Username & Password Anda")
+main("""
+\033[1;32mSilahkan Masukkan Username & Password Anda")
 
-print ("\033[1;32matau silahkan Hubungi MRR wa 083177336282 ")
+\033[1;32matau silahkan Hubungi MRR wa 083177336282 ")
+""")
 
 username = 'Maref'      
 
