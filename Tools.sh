@@ -9,6 +9,7 @@ python2 meizu.py
 sleep 2
 clear
 python2 loding692
+sleep 2
 clear
 echo $ijo
 figlet 10 Tools
