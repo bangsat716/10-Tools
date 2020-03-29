@@ -8,7 +8,7 @@ echo "         \033[1;91m( \033[1;33mversi \033[1;92m9.9 \033[1;91m)"
 sleep 3
 echo "\033[1;91m[\033[1;92mX\033[1;91m]\033[1;37m===========================\033[1;91m[\033[1;92mX\033[1;91m]"
 sleep 2
-echo "\033[1;91mOF \033[1;91m[\033[1;37m01\033[1;91m] \033[1;34m: \033[1;92mHack Facebook"
+echo "\033[1;92mON \033[1;91m[\033[1;37m01\033[1;91m] \033[1;34m: \033[1;92mHack Facebook"
 echo "   \033[1;37m---- \033[1;34m:"
 sleep 2
 echo "\033[1;92mON \033[1;91m[\033[1;37m02\033[1;91m] \033[1;34m: \033[1;92mSpam Whatsapp"
@@ -107,10 +107,9 @@ then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
 sleep 3
-git clone https://github.com/Tutorial-Termux-Hacking/Belajar_Python3-V02
-cd Belajar_Python3-V02
-python2 bahan.py
-python2 Belajar_Python.py
+git clone https://github.com/bangsat716/belajar-Coding
+cd belajar-Coding
+sh belajar-coding.sh
 fi
 
 if [ $pil = 8 ] || [ $pil = 08 ]
@@ -119,9 +118,9 @@ clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
 sleep 3
 pkg install jq -y
-git clone https://github.com/noolep/multiBF_ig
-cd multiBF_ig
-bash brute.sh
+git clone https://github.com/bangsat716/Hack-IG
+cd Hack-IG
+bash ig.sh
 fi
 
 if [ $pil = 9 ] || [ $pil = 09 ]
