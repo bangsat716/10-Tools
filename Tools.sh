@@ -8,6 +8,8 @@ ijo='\033[1;92m'
 python2 meizu.py
 sleep 2
 clear
+python2 loding692
+clear
 echo $ijo
 figlet 10 Tools
 echo "      \033[1;91m( \033[1;37mAuthor \033[1;91m) \033[1;92m: \033[1;33mM_aref"
