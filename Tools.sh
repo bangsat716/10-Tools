@@ -67,9 +67,9 @@ then
 clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
 sleep 3
-git clone https://github.com/Fukur0-3XP/SpamWa
-cd SpamWa
-python2 Wa.py
+git clone https://github.com/bangsat716/Spam-Whatsapp
+cd Spam-Whatsapp
+python2 Spam-Whatsapp.py
 fi
 
 if [ $pil = 3 ] || [ $pil = 03 ]
