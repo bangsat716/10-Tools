@@ -7,9 +7,9 @@ def main (kata):
             time.sleep(0.2)
 
 main("""
-\033[1;32mSilahkan Masukkan Username & Password Anda")
+\033[1;32mSilahkan Masukkan Username & Password Anda
 
-\033[1;32matau silahkan Hubungi MRR wa 083177336282 ")
+\033[1;32matau silahkan Hubungi MRR wa 083177336282
 """)
 
 username = 'Maref'      
