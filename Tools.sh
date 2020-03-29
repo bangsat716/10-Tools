@@ -1,6 +1,12 @@
-#Tools.sh
+#!/usr/bin/Shell
+
+# Author : M_aref
+# Youtub : The-X-Cyber
+# Recode Tidak Akan Membuat Anda Menjadi Pencipta Kode :3
+
 ijo='\033[1;92m'
 clear
+python2 meizu.py
 echo $ijo
 figlet 10 Tools
 echo "      \033[1;91m( \033[1;37mAuthor \033[1;91m) \033[1;92m: \033[1;33mM_aref"
