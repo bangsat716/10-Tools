@@ -48,6 +48,9 @@ sleep 2
 echo "\033[1;92mON \033[1;91m[\033[1;37m10\033[1;91m] \033[1;34m: \033[1;92mDDos Web"
 echo "   \033[1;37m---- \033[1;34m:"
 sleep 2
+echo "\033[1;33m!! \033[1;91m[\033[1;37m11\033[1;91m] \033[1;34m: \033[1;92mInstall bahan"
+echo "   \033[1;37m---- \033[1;34m:"
+sleep 2
 echo "\033[1;91m?? \033[1;91m[\033[1;37m00\033[1;91m] \033[1;34m: \033[1;91mExit"
 echo "\033[1;91m[\033[1;92mX\033[1;91m]\033[1;37m===========================\033[1;91m[\033[1;92mX\033[1;91m]\033[1;37m"
 read -p "   The-X --> : " pil
@@ -151,6 +154,14 @@ sleep 3
 git clone https://github.com/Mr-R0N1Z/phoenix_ddos
 cd phoenix_ddos
 sh phoenix.sh
+fi
+
+if [ $pil = 11 ] || [ $pil = 11 ]
+then
+clear
+echo "  \033[1;92mTunggu sebentar\033[1;37m"
+sleep 3
+sh install.sh
 fi
 
 if [ $pil = 0 ] || [ $pil = 00 ]
