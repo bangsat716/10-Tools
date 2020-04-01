@@ -162,6 +162,7 @@ clear
 echo "  \033[1;92mTunggu sebentar\033[1;37m"
 sleep 3
 sh install.sh
+sh Tools.sh
 fi
 
 if [ $pil = 0 ] || [ $pil = 00 ]
